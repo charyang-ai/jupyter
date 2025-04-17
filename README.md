@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 ## 📁 Files
 
-### `pydocker.py`
+### `pyDocker.py`
 
 Launches 8 separate Docker containers with the following features:
 
