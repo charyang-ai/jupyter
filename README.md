@@ -47,7 +47,7 @@ Stops and removes the containers launched by `pydocker.py`, named like `vllm_dev
 ### 1. Launch Containers
 
 ```bash
-python3 pydocker.py
+python3 pyDocker.py
 
 ```
 
