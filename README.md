@@ -4,9 +4,10 @@
 This project provides two Python scripts to manage Docker containers configured for AMD GPUs using the `rocm/vllm:instinct_main` image. Each container is equipped with JupyterLab and assigned a unique GPU render node and port. It is ideal for launching multiple containers for inference/model experimentation on AMD Instinct™ platforms.
 
 ---
-## Installing requirements:
+## Installing requirements and pulling containers:
 ```bash
 pip install -r requirements.txt
+docker pull rocm/vllm:instinct_main
 ```
 
 ## 📁 Files
