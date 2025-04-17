@@ -6,7 +6,7 @@ def cleanup_containers():
     render_ids = [128, 136, 144, 152, 160, 168, 176, 184]
 
     for rid in render_ids:
-        name = f"pytorch_dev_{rid}"
+        name = f"vllm_dev_{rid}"
         print(f"Stopping container {name}…")
         try:
             subprocess.run(["docker", "stop", name], check=True, stdout=subprocess.DEVNULL)
