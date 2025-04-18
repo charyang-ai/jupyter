@@ -20,7 +20,7 @@ def launch_containers():
     base_jupyter    = 5000
     base_vllm       = 8000
     image           = "rocm/vllm:instinct_main"
-    model_volume    = {"/home/shepande/models": {"bind": "/models", "mode": "rw"}}
+    model_volume    = {"/home/charyang/models": {"bind": "/models", "mode": "rw"}}
     common_devices  = [
         {"PathOnHost": "/dev/kfd", "PathInContainer": "/dev/kfd", "CgroupPermissions": "rwm"}
     ]
